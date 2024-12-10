@@ -1,19 +1,19 @@
 function turnOnRed() {
     resetLights();
     document.getElementById('red-light').style.opacity = 1;
-    setTimeout(cycleToYellow, 5000); // 5 seconds
+    setTimeout(cycleToYellow, 5000); 
 }
 
 function turnOnYellow() {
     resetLights();
     document.getElementById('yellow-light').style.opacity = 1;
-    setTimeout(cycleToGreen, 2000); // 2 seconds
+    setTimeout(cycleToGreen, 2000);
 }
 
 function turnOnGreen() {
     resetLights();
     document.getElementById('green-light').style.opacity = 1;
-    setTimeout(cycleToRed, 5000); // 5 seconds
+    setTimeout(cycleToRed, 5000); 
 }
 
 function cycleToRed() {
